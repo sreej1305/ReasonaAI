@@ -69,9 +69,15 @@ The system runs a **Counter-Argument Simulation**. It asks itself: *"Is this dec
 
 ## 🛠 Usage
 
+### Viewing on GitHub
+GitHub can render `.ipynb` files directly. If you are seeing raw code:
+1. Navigate to the `Reasona_AI_Engine.ipynb` file.
+2. Ensure the **"Preview"** tab (located next to the "Code" tab) is selected.
+
+### Running Locally
 1. Open `Reasona_AI_Engine.ipynb` in Jupyter Notebook or Google Colab.
-2. Navigate to Section 2: **Input Interface**.
-3. Modify the `user_input` variable with any natural language decision statement.
+2. Navigate to Section 3: **Input Selection & Interface**.
+3. Modify the `selected_id` variable or enter a custom `user_input`.
 4. Run all cells top-to-bottom to generate the justification report.
 
 ## 🎓 Technical Focus
