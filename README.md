@@ -33,6 +33,26 @@ Here is how **Reasona AI** processes a natural language decision statement:
 
 ---
 
+## ⚙️ How It Works (The Reasoning Process)
+
+Reasona AI doesn't just "guess" the justification. It follows a structured cognitive loop designed to mimic expert human analysis:
+
+### 1. **Deconstruction (Semantic Layer)**
+The engine first breaks down the sentence into a **Knowledge Graph**. It identifies:
+- **The Actor:** Who made the decision? (e.g., The Underwriting System)
+- **The Verdict:** What was the final outcome? (e.g., Denied)
+- **The Evidence:** What facts were cited? (e.g., 810 Credit Score, 43% DTI)
+
+### 2. **Causal Mapping (Justification Layer)**
+The AI identifies the "Conflict" in the input (High Credit vs. High Debt). It uses **Causal Reasoning** to determine which factor acted as the "Hard Constraint." It logic-gates the variables:
+- `IF Decision == Negative AND Constraint == DTI_Threshold`
+- `THEN Logic = "Capacity Violation overrides Reliability Score"`
+
+### 3. **Ethical Reflection (Bias Layer)**
+The system runs a **Counter-Argument Simulation**. It asks itself: *"Is this decision based on a proxy that correlates with a protected class?"* It then flags these as "Risk Gaps" to ensure the human reviewer is aware of potential systemic biases.
+
+---
+
 ## 🧩 Notebook Structure
 
 1. **Project Overview**: Motivation for AI transparency.
